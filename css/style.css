@@ -1,0 +1,19 @@
+html{
+    box-sizing: border-box;
+}
+*, ::after, ::before{
+    box-sizing: inherit;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 30px;
+}
+.list__item{
+    text-decoration: none;
+}
+.list__item--done{
+    text-decoration: line-through;
+}
