@@ -17,3 +17,11 @@ html{
 .list__item--done{
     text-decoration: line-through;
 }
+.list__button{
+    border: none;
+    margin: 2px;
+}
+.list__button--remove{
+    background-color: red;
+
+}
